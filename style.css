@@ -20,7 +20,7 @@ p {
   font-weight: 400;
 }
 
-@media (max-width :990px){
+@media all and (max-width :990px){
   #navigation {
     width: 200px;
     list-style: none;
