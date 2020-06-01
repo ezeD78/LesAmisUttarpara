@@ -1,0 +1,153 @@
+body {
+  background-color: #B19260;
+  padding: 20px;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  font-family: "Candara", sans-serif;
+  font-size: 17px;
+}
+
+#titreDuDebut {
+
+  top: 0px;
+  color: #A76B5A;
+  text-align: center;
+  width: 100%;
+  font-family:  "Roboto ", sans-serif;
+  font-weight: 400;
+}
+
+
+#navigation {
+  width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #A76B5A;
+  font-size: 150%;
+  height: 60px;
+  margin-bottom: 2.4%;
+
+}
+
+.menu ul {
+  margin-left: 3%;
+}
+.menu li {
+
+  height: 45px;
+  padding-right: 1%;
+  padding-left:1%;
+  list-style-type: none;
+
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 1.5%;
+  margin-right: 0%;
+  padding-top: 8px;
+
+  background-color: #B19B82 ;
+
+}
+
+.menu li:hover {
+  background-color: #BDB7B0 ;
+  text-decoration: underline;
+
+
+}
+.menu a {
+  font-family:  "Roboto ", sans-serif;
+  font-weight: 100;
+  font-size: 19px;
+  text-decoration: none;
+  color: white;
+}
+a {
+color : black;
+font-weight: bold;
+
+}
+a :hover {
+  color: red;
+  text-decoration: overline;
+}
+#isactive {
+
+  text-decoration: underline;
+  color: #E9E8E8
+}
+
+#isactive :hover {
+  background-color: #B19B82;
+}
+
+#imageac {
+  margin-top: 80px;
+}
+.imageacgauche{
+  width: 50%;
+  float: left;
+  margin-left: 15px;
+  border-radius: 35px;
+  margin-right: 15px;
+}
+.imgagauche {
+  float: left;
+  border-radius: 40px;
+  margin-right: 40px;
+  width: 15%;
+  margin-left: 10px;
+
+}
+.imgafdroite {
+  position: relative;
+  float: right;
+
+  border-radius: 40px;
+
+width: 15%;
+left:  -28%;
+
+}
+
+h2 {
+  font-family:  "Roboto ", sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+
+  clear:left;
+padding-top: 100px;
+  text-align: center;
+  margin-bottom: 10px
+}
+.presentationprtrait{
+
+  margin-bottom: 160px;
+  margin-top :20px;
+}
+.presentationprtrait span{
+text-align: justify;
+margin-left: 15px;
+width: 50%;
+line-height: 25px;
+
+padding-bottom: 10px;
+padding-top: 10px;
+background-color: #DCDBD6;
+padding-right: 15px;
+padding-left: 15px;
+display: flow-root;
+float: none;
+position: relative;
+}
+#page {
+  background-color: white;
+  padding: 20px;
+}
