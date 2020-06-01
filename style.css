@@ -20,6 +20,43 @@ p {
   font-weight: 400;
 }
 
+@media (max-width :990px){
+  #navigation {
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #A76B5A;
+    font-size: 150%;
+    height: 60px;
+    margin-bottom: 2.4%;
+
+  }
+
+  .menu ul {
+    margin-left: 3%;
+  }
+  .menu li {
+
+    height: 45px;
+    padding-right: 1%;
+    padding-left:1%;
+    list-style-type: none;
+
+    
+    margin-top: 20px;
+    margin-left: 1.5%;
+    margin-right: 0%;
+    padding-top: 8px;
+
+    background-color: #B19B82 ;
+
+  }
+
+}
 
 #navigation {
   width: 200px;
