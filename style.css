@@ -5,6 +5,17 @@ body {
 h1 {
   font-size: 50px;
 }
+
+h2 {
+  font-family:  "Roboto ", sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+
+  clear:left;
+padding-top: 100px;
+  text-align: center;
+  margin-bottom: 10px
+}
 p {
   font-family: "Candara", sans-serif;
   font-size: 17px;
@@ -20,50 +31,12 @@ p {
   font-weight: 400;
 }
 
-@media all and (max-width :990px){
-  #navigation {
-    width: 200px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav {
-    background-color: red;
-    font-size: 150%;
-    height: 60px;
-    margin-bottom: 2.4%;
-
-  }
-
-  .menu ul {
-    margin-left: 3%;
-  }
-  .menu li {
-
-    height: 45px;
-    padding-right: 1%;
-    padding-left:1%;
-    list-style-type: none;
 
 
-    margin-top: 20px;
-    margin-left: 1.5%;
-    margin-right: 0%;
-    padding-top: 8px;
 
-    background-color: #B19B82 ;
+@media  (min-width: 990px){
 
-  }
 
-}
-
-#navigation {
-  width: 200px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
 nav {
   background-color: #A76B5A;
@@ -90,6 +63,35 @@ nav {
   padding-top: 8px;
 
   background-color: #B19B82 ;
+
+}
+
+.imageacgauche{
+  width: 50%;
+  float: left;
+  margin-left: 15px;
+  border-radius: 35px;
+  margin-right: 15px;
+}
+.imgagauche {
+  float: left;
+  border-radius: 40px;
+  margin-right: 40px;
+  width: 15%;
+  margin-left: 10px;
+
+}
+.imgafdroite {
+  position: relative;
+  float: right;
+
+  border-radius: 40px;
+
+width: 15%;
+left:  -28%;
+
+}
+
 
 }
 
@@ -128,42 +130,9 @@ a :hover {
 #imageac {
   margin-top: 80px;
 }
-.imageacgauche{
-  width: 50%;
-  float: left;
-  margin-left: 15px;
-  border-radius: 35px;
-  margin-right: 15px;
-}
-.imgagauche {
-  float: left;
-  border-radius: 40px;
-  margin-right: 40px;
-  width: 15%;
-  margin-left: 10px;
 
-}
-.imgafdroite {
-  position: relative;
-  float: right;
 
-  border-radius: 40px;
 
-width: 15%;
-left:  -28%;
-
-}
-
-h2 {
-  font-family:  "Roboto ", sans-serif;
-  font-weight: lighter;
-  font-size: 45px;
-
-  clear:left;
-padding-top: 100px;
-  text-align: center;
-  margin-bottom: 10px
-}
 .presentationprtrait{
 
   margin-bottom: 160px;
@@ -187,4 +156,102 @@ position: relative;
 #page {
   background-color: white;
   padding: 20px;
+}
+
+
+
+
+@media  (max-width: 990px){
+
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-family:  "Roboto ", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+  padding-top: 10px;
+    text-align: center;
+    margin-bottom: 10px
+  }
+
+  nav {
+
+    font-size: 100%;
+    height: 200px;
+    margin-bottom: 2.4%;
+
+  }
+
+
+  .menu li {
+
+    height: 25px;
+    width: 70%;
+    padding-right: 0%;
+    padding-left:1%;
+    list-style-type: circle;
+
+
+    margin-top: 7px;
+    margin-left: 1.5%;
+    margin-right: 0%;
+    padding-top: 4px;
+
+    background-color: #B19260 ;
+
+  }
+
+  .imgagauche {
+    float: none;
+    border-radius: 30px;
+    margin-right: 40px;
+    width: 30%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+  }
+  .imgafdroite {
+    float: none;
+    border-radius: 30px;
+    margin-right: 40px;
+    width: 30%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .presentationprtrait{
+
+    margin-bottom: 80px;
+    margin-top :20px;
+  }
+
+
+  .presentationprtrait span{
+  text-align:justify;
+  margin-left: 0px;
+  width: 94%;
+  line-height: 25px;
+
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #DCDBD6;
+  padding-right: 13px;
+  padding-left: 13px;
+
+  float: none;
+  position: relative;
+  }
+  p {
+    font-family: "Candara", sans-serif;
+    font-size: 15px;
+  }
+  #imageac {
+    display: none;
+  }
+}
+@media  (max-width: 350px) {
+    .menu li {
+      width: 82%;
+    }
 }
