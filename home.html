@@ -25,7 +25,7 @@
   </ul>
   </nav>
 <p id="imageac">
-  <img class = "imageacgauche" src="https://zupimages.net/up/20/23/k0tn.png" alt="image d'accueil" >
+  <img class = "imageacgauche"  alt="image d'accueil" name = "homeImage" >
   <span> L'association <strong> Les Amis d’Uttarpara </strong> apporte une aide à des familles indiennes dans le besoin  <a href="https://www.youtube.com/?hl=fr&gl=FR">en savoir plus </a></span>
 
 </p>
@@ -62,5 +62,25 @@ jour !</span></p>
 
 <h2> LES ORIGINES DU PROJET :</h2>
 </div>
+
+
+<script>
+var i = 0 ;
+
+var nomphoto = ['Image/imageHome2.jpg','Image/imageHome.png'];
+
+function changeImage() {
+  document.homeImage.src = nomphoto[i];
+
+  i ++;
+  if (i > (nomphoto.length - 1) ){
+    i = 0 ;
+  }
+setTimeout("changeImage()",3000);
+}
+window.onload = changeImage;
+
+
+</script>
   </body>
     </html>
